@@ -1,0 +1,14 @@
+@import '../gobal.module.scss';
+.container {
+    background-color: $gobal-bg-col;
+}
+
+.footer {
+    background-color: $gobal-bg-col;
+    height: 100px;
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

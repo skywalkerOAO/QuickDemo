@@ -1,0 +1,24 @@
+@import '../../gobal.module.scss';
+
+
+$searcher-col: rgba(255, 255, 255, 1);
+
+
+.container {
+    background-color: aliceblue;
+    height: 100%;
+    width: 100%;
+    min-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card_Con{
+    height: 300px;
+}
+.submitbtn{
+    display: block;
+    float: right;
+    
+}

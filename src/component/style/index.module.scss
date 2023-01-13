@@ -1,0 +1,99 @@
+@import '@/gobal.module.scss';
+
+
+$searcher-col: rgba(255, 255, 255, 1);
+
+
+.container {
+    min-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background: rgba(255,255,255,1);
+}
+.content{
+    height: 100%;
+    width: 100%;
+    background: rgba(255,255,255,.1);
+    backdrop-filter:blur(5px); 
+}
+.Content_Container{
+    display: flex;
+    flex-direction: row;
+}
+.left_Container_Wrapper {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.right_Container_Wrapper {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.center_Container_Wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.center_Container_Content {
+    width: 100%;
+    height: 100%;
+    margin-top: 13%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.peom{
+    position: absolute;
+    bottom: 10%;
+    color:#fff;
+    font-size: 14px;
+}
+.searcher {
+    border: none !important;
+    background-color: $searcher-col  !important;
+    height: 40px !important;
+    border-radius: 20px !important;
+}
+
+.timer {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+
+}
+
+.tabBar {
+    width: 100%;
+}
+
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: $gobal-bg-col;
+}
+.dropdowns{
+    width: 100px;
+}
+.topbar_logo_container {
+    height: 100%;
+    width: 200px;
+}
